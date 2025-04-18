@@ -29,6 +29,7 @@ export const TripForm = ({open, onClose}) => {
           />
           <label className="text-sm text-slate-500 font-medium">Cycle Hours Used</label>
           <input type="text"
+            defaultValue={70}
             placeholder="Enter hours"
             className="border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2 mb-4  focus:outline-none focus:ring-[3px] focus:ring-blue-300 focus:ring-opacity-50"
           />
