@@ -6,7 +6,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-white h-12 w-full border-b-1 border-gray-200 flex items-center px-5 relative">
+      <div className="bg-white h-12 w-[80%] border-b-1 border-gray-200 flex items-center px-5 ml-[20%] fixed">
         <MdLightMode />
         <button
           onClick={() => setOpen(true)} 

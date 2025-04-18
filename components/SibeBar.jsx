@@ -13,7 +13,7 @@ export const SideBar = () => {
     
   ]
   return (
-    <div className="bg-white w-64 h-screen px-2 border-r-1 border-gray-200">
+    <div className="bg-white fixed w-[20%] min-h-dvh m-0 px-2 border-r-1 border-gray-200">
       <div className="flex items-center gap-3 py-2 px-2 border-b-1 border-gray-200 mb-2.5">
         <PiTruckTrailerFill className="text-blue-600 text-3xl" />
         <h1 className="text-lg font-bold">TruckPlanner</h1>
